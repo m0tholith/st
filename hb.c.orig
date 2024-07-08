@@ -25,23 +25,7 @@ static HbFontMatch *hbfontcache = NULL;
  * e. g.
  * FEATURE('c', 'a', 'l', 't'), FEATURE('d', 'l', 'i', 'g')
  */
-hb_feature_t features[] = {
-  FEATURE('c', 'v', '2', '0'),
-  FEATURE('c', 'v', '1', '9'),
-  FEATURE('c', 'v', '1', '8'),
-  FEATURE('c', 'v', '1', '7'),
-  FEATURE('c', 'v', '1', '6'),
-  FEATURE('c', 'v', '1', '5'),
-  FEATURE('c', 'v', '1', '4'),
-  FEATURE('c', 'v', '1', '1'),
-  FEATURE('c', 'v', '0', '6'),
-  FEATURE('c', 'v', '0', '5'),
-  FEATURE('c', 'v', '0', '4'),
-  FEATURE('c', 'v', '0', '3'),
-  FEATURE('c', 'v', '0', '2'),
-  FEATURE('c', 'a', 'l', 't'),
-  FEATURE('z', 'e', 'r', 'o'),
-};
+hb_feature_t features[] = { };
 
 void
 hbunloadfonts()
